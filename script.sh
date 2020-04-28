@@ -2,4 +2,5 @@
   pwd
   whoami
   ls
+  echo "Perfect"
   
