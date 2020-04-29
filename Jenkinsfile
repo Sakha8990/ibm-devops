@@ -4,7 +4,7 @@ timestamps {
             git credentialsId: 'e5639047-d868-4a9b-b444-253dbb0f7752', url: 'https://github.com/Sakha8990/ibm-devops.git'
         }
         stage('Hello') {
-            bat label: 'windows', script: 'echo "[INFO] This is running on Windows"'
+            bat label: 'Hello', script: 'echo "[INFO] This is running on Windows"'
         }
     }
         
