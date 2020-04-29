@@ -3,7 +3,7 @@ pipeline {
     timestamps {
     node('windows') {
         stage('checkout'){
-            git credentialsId: 'e5639047-d868-4a9b-b444-253dbb0f7752', url: 'https://github.com/Sakha8990/ibm-devops.git
+            git credentialsId: 'e5639047-d868-4a9b-b444-253dbb0f7752', url: 'https://github.com/Sakha8990/ibm-devops.git'
         }
         stage('Hello') {
             bat label: '', script: 'echo "[INFO] This is running on Windows"'
