@@ -1,4 +1,6 @@
-timestamps {
+pipeline {
+   agent any
+    timestamps {
     node('windows') {
         stage('checkout'){
             git credentialsId: 'e5639047-d868-4a9b-b444-253dbb0f7752', url: 'https://github.com/Sakha8990/ibm-devops.git
